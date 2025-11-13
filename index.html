@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--NOMBRE DE LA PAGINA-->
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <header>
+        <!--EMCABEZADO NOMBRE, LEMA PROFESIONAL-->
+        <a id="inicio"></a>
+        <h1> Jose Miguel Tigre Vivar</h1>
+        <p>Estudiante universitario comprometido con su formación académica y personal, enfocado en alcanzar el éxito y
+            aprovechar las oportunidades que la vida y Dios me brindan.</p>
+
+        <!--ENLACE AL FINAL-->
+        <a href="#final"> Ir al final de mi portafolio</a><br>
+        <br>
+        <!--IMAGEN DE PRESENTACION-->
+        <td><img src="img/imagen personal/559025701_3712665539042176_7951629120589447461_n.jpg"
+                alt="Imagen personal mia" width="200"></td>
+    </header>
+    <!--indice de navegacion por la pagina-->
+    <nav>
+        <a href="#sobremi"> sobre mi - conoceme un poco</a> /
+        <a href="#datospersonales">Mis datos</a> /
+        <a href="#intereses">Intereses academicos</a> /
+        <a href="#gustos">Mis Gustos </a> /
+        <a href="#habilidades">Mis habilidades</a> /
+        <a></a>
+    </nav>
+    <!--sesion sobre mi, presentacion y datos personales-->
+    <a id="sobremi"></a>
+    <h2><strong>Descripcion personal.</strong></h2>
+    <p> Soy Joven universitario<em> responsable, trabajador apasionado por la musica,</em>
+        Actualmente curso el tercer semestre en la carrera de sistemas de informacion en la <em>Universidad Tecnica de
+            Babahoyo,</em> me considero una persona <mark> me considero una persona diciplinada, puntual y comprometida
+            en mis metas academicas y personales.</mark>
+        provengo de una familia de escaso recurso,lo que me motiva a esforzarme cada día para alcanzar mis objetivos y
+        superarme constantemente. <strong> Mi fe católica </strong>y mi forma de pensar se resumen en una frase que me
+        inspira:<strong> "no siempre llovera, por que el sol siempre
+            sale para
+            todos".</strong>
+    </p>
+    <a id="datospersonales"></a>
+    <h2><strong>Datos personales.</strong></h2>
+    <p><strong>Nombres:</strong> Jose Miguel.</p>
+    <p><strong>Apellidos:</strong> Tigre Vivar.</p>
+    <p><strong>Edad:</strong> 23 años.</p>
+    <p><strong>Fecha de nacimiento:</strong> 19/12/2001.</p>
+    <p><strong>Estatura:</strong> 1,73cm.</p>
+    <p><strong>Color Favorito:</strong> Azul, Negro.</p>
+    <p><strong>Direccion:</strong> La Union, Babahoyo, Los Rios.</p>
+
+    <!--mis interese academicos LISTA-->
+    <a id="intereses"></a>
+    <h2><strong> Lista de Intereses.</strong></h2>
+    <ul>
+        <li>Programacion Web</li><br>
+        <li>Investigacion de tecnoligia</li><br>
+        <li>Electronica</li><br>
+        <li>Innovacion digital</li><br>
+        <li>Inteligfencia Artificial en La Musica</li><br>
+        <li>Aprendizaje Continuo</li><br>
+    </ul>
+
+    <!--mis gustos personales LISTA-->
+    <a id="gustos"></a>
+    <h2><strong>Mis gustos</strong></h2>
+    <ul>
+        <li>Viajar, disfrutar de la naturaleza.</li><br>
+        <li>Muisca "Rock and Roll".</li><br>
+        <li>Dibujar.</li><br>
+        <li>Hacer Deporte - trotar.</li><br>
+        <li>Salir de Paseo en Familia.</li><br>
+        <li>Hacer Contenido de Humor y Musical.</li><br>
+    </ul>
+
+    <!--MIS HABILIDADES EN UNA TABLA-->
+    <a id="habilidades"></a>
+    <h2><strong>Mis habilidades.</strong></h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Habilidiad.</th>
+                <th>Calificacion del 1/10.</th>
+                <th>Experiencia.</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Entonar Guitarra.</td>
+                <td>8/10.</td>
+                <td>7 años de experiencia.</td><br>
+            </tr>
+
+            <td>Habilidad de canto</td>
+            <td>8/10.</td>
+            <td>5 años de experiencia.</td>
+
+            <tr>
+                <td>Edicion de videos.</td>
+                <td>8/10.</td>
+                <td>5 años de experiecia. </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--AUDIO DE PRESENTACION-->
+    <br>
+    <h2><strong>Audio de Presentacion</strong></h2>
+    <audio controls>
+        <source src="audio/WhatsApp Audio 2025-11-13 at 1.39.17 PM.mp4">
+        <br>
+    </audio>
+
+    <!--el formulario de contacto-->
+    <h2>Formulario de contacto</h2>
+    <form>
+        <!-- Nombre -->
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" required><br><br>
+
+        <!-- Correo -->
+        <label>Correo:</label><br>
+        <input type="email" name="correo" required><br><br>
+
+        <!-- Edad -->
+        <label>Edad:</label><br>
+        <input type="number" name="edad" min="1" max="120" required><br><br>
+
+        <!-- Género -->
+        <label>Género:</label><br>
+        <input type="radio" name="genero" value="Masculino" required> Masculino
+        <input type="radio" name="genero" value="Femenino" required> Femenino
+        <input type="radio" name="genero" value="Otro" required> Otro<br><br>
+
+        <!-- Intereses -->
+        <label>Intereses:</label><br>
+        <input type="checkbox" name="interes" value="Música"> Música
+        <input type="checkbox" name="interes" value="Deportes"> Deportes
+        <input type="checkbox" name="interes" value="Tecnología"> Tecnología<br><br>
+
+        <!-- Comentarios -->
+        <label>Comentarios:</label><br>
+        <textarea name="comentarios" rows="4" cols="30"></textarea><br><br>
+
+        <!-- Botón -->
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+
+    <!--DERECHOS, ENLACES A REDES SOCIALES-->
+    <footer>
+        <p>© 2025 Todos los derechos reservados.</p>
+        <p>Sígueme en:
+            <a href="https://www.facebook.com/profile.php?id=100008962984759&locale=es_LA">Facebook</a> |
+            <a href="https://www.youtube.com/@guitarcoversymuchomas424">Youtube</a> |
+            <a href="https://www.tiktok.com/@tigre.jos">Tiktok</a>
+        </p>
+    </footer>
+
+    <!--ENLACE AL INICIO-->
+    <br>
+    <a id="final"></a>
+    <a href="#inicio">Ir a inicio de mi portafolio</a>
+    <br>
+</body>
+
+</html>
